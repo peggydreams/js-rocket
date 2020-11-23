@@ -1,2 +1,2 @@
 # js-rocket
-Launch a rocket with JavaScript
+See how I launched a rocket using HTML, CSS and learning basics of JS from @taptapkaboom 
