@@ -1,4 +1,22 @@
 body{
   background-color: pink;
+<<<<<<< Updated upstream
   
 }
+=======
+  font-family: 'Delius Unicase', cursive;
+  
+}
+
+.cool{
+  width: 150px;
+  height: 150px;
+  background-color: lightblue;
+  transition: background-color 1s;
+
+}
+
+.cool.purple{
+  background-color: purple;
+}
+>>>>>>> Stashed changes

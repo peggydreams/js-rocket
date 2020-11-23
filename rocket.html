@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Launch my Rocket into space</title>
+  <link rel="stylesheet" type="text/css" href="css/rocket.css">
+  <script type="text/javascript" src="js/rocket.js">
+  </script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body-state1">
+  <div class="left">
+    <div class="look state1">
+      <h1>JS ROCKET LAUNCH!</h1>
+      <a href="#" class="button" onclick="changeState(2);">LAUNCH ME INTO SPACE</a>
+    </div>
+
+    <div class="look state2">
+      <h1 id="countdown">10</h1>
+      <a href="#" class="button" onclick="changeState(1);">ABORT</a>
+    </div>
+    <div class="look state3">
+      <h1>LIFT OFF!</h1>
+    </div>
+    <div class="look state4">
+      <h1>MISSION COMPLETE</h1>
+      <a href="#" class="button" onclick="changeState(1);">DO IT AGAIN</a>
+    </div>
+    <div class="look state5">
+      <h1>OH NO!!!</h1>
+      <a href="#" class="button" onclick="changeState(1);">TRY AGAIN!</a>
+    </div>
+
+
+  <div class="right">
+
+    <div class="ground"></div>
+    <div class="rocket"></div>
+    <div class="nervous" id="nervous"></div>
+    <div class="cant-wait" id="cant-wait"></div>
+
+  </div>
+
+
+</body>
+
+</html>

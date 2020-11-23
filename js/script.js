@@ -1,6 +1,20 @@
+<<<<<<< Updated upstream
 var sayMyName = function(name) {
     alert("My name is: "+name);
     
+=======
+var doCoolStuff = function () {
+    var currentClassname = document.getElementById('cool').className;
+
+    if (currentClassname == "cool") {
+      document.getElementById('cool').className = "cool purple"
+    } else   document.getElementById('cool').className = "cool"
+}
+
+var sayMyName = function(name) {
+    alert("My name is: "+name);
+
+>>>>>>> Stashed changes
 }
 
 var car = {
