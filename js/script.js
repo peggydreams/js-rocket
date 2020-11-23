@@ -1,8 +1,7 @@
-<<<<<<< Updated upstream
-var sayMyName = function(name) {
-    alert("My name is: "+name);
-    
-=======
+setTimeout(function (){
+    location.href = "rocket.html"
+}, 0);
+
 var doCoolStuff = function () {
     var currentClassname = document.getElementById('cool').className;
 
@@ -13,8 +12,6 @@ var doCoolStuff = function () {
 
 var sayMyName = function(name) {
     alert("My name is: "+name);
-
->>>>>>> Stashed changes
 }
 
 var car = {
