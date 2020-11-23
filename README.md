@@ -1,2 +1,2 @@
 # js-rocket
-Launch a rocket with JavaScript
+This is an excercise in html, css and JS that I finished following instructions of https://github.com/taptapkaboom on Skillshare
